@@ -61,9 +61,7 @@ namespace HW1c.Models
             }
 
             // Don't update the ID, leave the old on in place
-            if (ID == null) {
-                ID = data.ID;
-            }
+            //ID = data.ID;
             
 
             // Update all the other fields
